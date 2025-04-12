@@ -1,4 +1,4 @@
-## 🌠 Image Slider
+# 🌠 IMAGE SLIDER
 
 A **responsive**, **feature-rich** image slider built using **vanilla JavaScript**, **HTML5**, and **CSS3**. Perfect for modern websites, landing pages, or portfolios.
 
