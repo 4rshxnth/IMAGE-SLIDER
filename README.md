@@ -20,10 +20,11 @@ A **responsive**, **feature-rich** image slider built using **vanilla JavaScript
 
 🔗 [Click here for Live Demo](https://4rshxnth.github.io/IMAGE-SLIDER/)
 
----
 > **Here’s a preview of the image-slider**
 
-![Screenshot](Images/preview.png)
+![Preview](Images/preview.png)
+
+---
 
 ## 🚀 Installation
 
@@ -129,6 +130,16 @@ Modify `styles.css` to:
 
 ---
 
+## 🙏 Acknowledgments
+
+- [Font Awesome](https://fontawesome.com/) for the navigation icons  
+  > *(Ensure you've included the Font Awesome CDN in your HTML)*
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+```
+---
+
 ## 🌐 Browser Support
 
 Tested and works smoothly on:
@@ -147,11 +158,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for f
 
 ---
 
-## 🙏 Acknowledgments
-
-- [Font Awesome](https://fontawesome.com/) for the navigation icons  
-  > *(Ensure you've included the Font Awesome CDN in your HTML)*
-
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-```
