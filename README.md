@@ -21,6 +21,9 @@ A **responsive**, **feature-rich** image slider built using **vanilla JavaScript
 🔗 [Click here for Live Demo](https://4rshxnth.github.io/IMAGE-SLIDER/)
 
 ---
+> **Here’s a preview of the image-slider**
+
+![Screenshot](Images/preview.png)
 
 ## 🚀 Installation
 
