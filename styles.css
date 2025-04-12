@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: black;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-heading {
+    position: absolute;
+    top: 16em;
+    left: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 10;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.slider .list {
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+
+.slider .list img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.slider .buttons {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.slider .buttons .fa-chevron-left {
+    font-size: 25px;
+}
+
+.slider .buttons .fa-chevron-right {
+    font-size: 25px;
+}
+
+.slider .buttons button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.477);
+    color: #ffffff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slider .dots {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.slider .dots li {
+    list-style: none;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 20px;
+    transition: width 0.5s ease;
+    cursor: pointer;
+}
+
+.slider .dots li.active {
+    width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 100vh;
+    }
+}
